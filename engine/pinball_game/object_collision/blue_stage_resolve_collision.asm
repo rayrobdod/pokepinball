@@ -570,7 +570,7 @@ LoadBumperGraphics_BlueField: ; 0x1ce7a
 	ld a, [hGameBoyColorFlag]
 	and a
 	jr z, .asm_1ce8a
-	ld hl, TileDataPointers_1cf3a
+	ld hl, TileDataPointers_Slingshots_BlueField
 .asm_1ce8a
 	add hl, bc
 	ld a, [hli]

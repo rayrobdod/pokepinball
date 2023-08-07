@@ -1671,7 +1671,7 @@ LoadBumperGraphics_RedField: ; 0x15fc0
 	ld a, [hGameBoyColorFlag]
 	and a
 	jr z, .asm_15fd0
-	ld hl, TileData_16080
+	ld hl, TileDataPointers_Slingshots_RedField
 .asm_15fd0
 	add hl, bc
 	ld a, [hli]

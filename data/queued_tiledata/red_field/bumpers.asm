@@ -108,29 +108,29 @@ TileData_16069: ; 0x16069
 
 	db $00 ; terminator
 
-TileData_16080:
-	dw TileData_16088
-	dw TileData_1608b
-	dw TileData_1608e
-	dw TileData_16091
+TileDataPointers_Slingshots_RedField:
+	dw TileDataPointer_Slingshot_Left_RedField
+	dw TileDataPointer_Slingshot_Left_Lit_RedField
+	dw TileDataPointer_Slingshot_Right_RedField
+	dw TileDataPointer_Slingshot_Right_Lit_RedField
 
-TileData_16088: ; 0x16088
+TileDataPointer_Slingshot_Left_RedField: ; 0x16088
 	db $01
-	dw TileData_16094
+	dw TileData_Slingshot_Left_RedField
 
-TileData_1608b: ; 0x1608b
+TileDataPointer_Slingshot_Left_Lit_RedField: ; 0x1608b
 	db $01
-	dw TileData_160ab
+	dw TileData_Slingshot_Left_Lit_RedField
 
-TileData_1608e: ; 0x1608e
+TileDataPointer_Slingshot_Right_RedField: ; 0x1608e
 	db $01
-	dw TileData_160c2
+	dw TileData_Slingshot_Right_RedField
 
-TileData_16091: ; 0x16091
+TileDataPointer_Slingshot_Right_Lit_RedField: ; 0x16091
 	db $01
-	dw TileData_160d9
+	dw TileData_Slingshot_Right_Lit_RedField
 
-TileData_16094: ; 0x16094
+TileData_Slingshot_Left_RedField: ; 0x16094
 	dw LoadTileLists
 	db $07 ; total number of tiles
 
@@ -152,7 +152,7 @@ TileData_16094: ; 0x16094
 
 	db $00 ; terminator
 
-TileData_160ab: ; 0x160ab
+TileData_Slingshot_Left_Lit_RedField: ; 0x160ab
 	dw LoadTileLists
 	db $07 ; total number of tiles
 
@@ -174,7 +174,7 @@ TileData_160ab: ; 0x160ab
 
 	db $00 ; terminator
 
-TileData_160c2: ; 0x160c2
+TileData_Slingshot_Right_RedField: ; 0x160c2
 	dw LoadTileLists
 	db $07 ; total number of tiles
 
@@ -196,7 +196,7 @@ TileData_160c2: ; 0x160c2
 
 	db $00 ; terminator
 
-TileData_160d9: ; 0x160d9
+TileData_Slingshot_Right_Lit_RedField: ; 0x160d9
 	dw LoadTileLists
 	db $07 ; total number of tiles
 
