@@ -1,16 +1,16 @@
-TileDataPointers_1e6d7:
-	dw TileData_1e6e7
-	dw TileData_1e6ed
-	dw TileData_1e6f3
-	dw TileData_1e6f9
+TileDataPointers_CaveLights_On_GameBoy_BlueField: ; 0x1e6d7
+	dw TileData_CaveLight_C_On_GameBoy_BlueField
+	dw TileData_CaveLight_A_On_GameBoy_BlueField
+	dw TileData_CaveLight_V_On_GameBoy_BlueField
+	dw TileData_CaveLight_E_On_GameBoy_BlueField
 
-TileDataPointers_1e6df:
-	dw TileData_1e6ff
-	dw TileData_1e705
-	dw TileData_1e70b
-	dw TileData_1e711
+TileDataPointers_CaveLights_Off_GameBoy_BlueField: ; 0x1e6df
+	dw TileData_CaveLight_C_Off_GameBoy_BlueField
+	dw TileData_CaveLight_A_Off_GameBoy_BlueField
+	dw TileData_CaveLight_V_Off_GameBoy_BlueField
+	dw TileData_CaveLight_E_Off_GameBoy_BlueField
 
-TileData_1e6e7: ; 0x1e6e7
+TileData_CaveLight_C_On_GameBoy_BlueField: ; 0x1e6e7
 	db $01 ; total number of tiles
 
 	db $01 ; number of tiles
@@ -19,7 +19,7 @@ TileData_1e6e7: ; 0x1e6e7
 
 	db $00 ; terminator
 
-TileData_1e6ed: ; 0x1e6ed
+TileData_CaveLight_A_On_GameBoy_BlueField: ; 0x1e6ed
 	db $01 ; total number of tiles
 
 	db $01 ; number of tiles
@@ -28,7 +28,7 @@ TileData_1e6ed: ; 0x1e6ed
 
 	db $00 ; terminator
 
-TileData_1e6f3: ; 0x1e6f3
+TileData_CaveLight_V_On_GameBoy_BlueField: ; 0x1e6f3
 	db $01 ; total number of tiles
 
 	db $01 ; number of tiles
@@ -37,7 +37,7 @@ TileData_1e6f3: ; 0x1e6f3
 
 	db $00 ; terminator
 
-TileData_1e6f9: ; 0x1e6f9
+TileData_CaveLight_E_On_GameBoy_BlueField: ; 0x1e6f9
 	db $01 ; total number of tiles
 
 	db $01 ; number of tiles
@@ -46,7 +46,7 @@ TileData_1e6f9: ; 0x1e6f9
 
 	db $00 ; terminator
 
-TileData_1e6ff: ; 0x1e6ff
+TileData_CaveLight_C_Off_GameBoy_BlueField: ; 0x1e6ff
 	db $01 ; total number of tiles
 
 	db $01 ; number of tiles
@@ -55,7 +55,7 @@ TileData_1e6ff: ; 0x1e6ff
 
 	db $00 ; terminator
 
-TileData_1e705: ; 0x1e705
+TileData_CaveLight_A_Off_GameBoy_BlueField: ; 0x1e705
 	db $01 ; total number of tiles
 
 	db $01 ; number of tiles
@@ -64,7 +64,7 @@ TileData_1e705: ; 0x1e705
 
 	db $00 ; terminator
 
-TileData_1e70b: ; 0x1e70b
+TileData_CaveLight_V_Off_GameBoy_BlueField: ; 0x1e70b
 	db $01 ; total number of tiles
 
 	db $01 ; number of tiles
@@ -73,7 +73,7 @@ TileData_1e70b: ; 0x1e70b
 
 	db $00 ; terminator
 
-TileData_1e711: ; 0x1e711
+TileData_CaveLight_E_Off_GameBoy_BlueField: ; 0x1e711
 	db $01 ; total number of tiles
 
 	db $01 ; number of tiles
@@ -82,19 +82,19 @@ TileData_1e711: ; 0x1e711
 
 	db $00 ; terminator
 
-TileDataPointers_1e717:
-	dw TileData_1e727
-	dw TileData_1e72d
-	dw TileData_1e733
-	dw TileData_1e739
+TileDataPointers_CaveLights_On_GameBoyColor_BlueField: ; 0x1e717
+	dw TileData_CaveLight_C_On_GameBoyColor_BlueField
+	dw TileData_CaveLight_A_On_GameBoyColor_BlueField
+	dw TileData_CaveLight_V_On_GameBoyColor_BlueField
+	dw TileData_CaveLight_E_On_GameBoyColor_BlueField
 
-TileDataPointers_1e71f:
-	dw TileData_1e73f
-	dw TileData_1e745
-	dw TileData_1e74b
-	dw TileData_1e751
+TileDataPointers_CaveLights_Off_GameBoyColor_BlueField: ; 0x1e71f
+	dw TileData_CaveLight_C_Off_GameBoyColor_BlueField
+	dw TileData_CaveLight_A_Off_GameBoyColor_BlueField
+	dw TileData_CaveLight_V_Off_GameBoyColor_BlueField
+	dw TileData_CaveLight_E_Off_GameBoyColor_BlueField
 
-TileData_1e727: ; 0x1e727
+TileData_CaveLight_C_On_GameBoyColor_BlueField: ; 0x1e727
 	db $01 ; total number of tiles
 
 	db $01 ; number of tiles
@@ -103,7 +103,7 @@ TileData_1e727: ; 0x1e727
 
 	db $00 ; terminator
 
-TileData_1e72d: ; 0x1e72d
+TileData_CaveLight_A_On_GameBoyColor_BlueField: ; 0x1e72d
 	db $01 ; total number of tiles
 
 	db $01 ; number of tiles
@@ -112,7 +112,7 @@ TileData_1e72d: ; 0x1e72d
 
 	db $00 ; terminator
 
-TileData_1e733: ; 0x1e733
+TileData_CaveLight_V_On_GameBoyColor_BlueField: ; 0x1e733
 	db $01 ; total number of tiles
 
 	db $01 ; number of tiles
@@ -121,7 +121,7 @@ TileData_1e733: ; 0x1e733
 
 	db $00 ; terminator
 
-TileData_1e739: ; 0x1e739
+TileData_CaveLight_E_On_GameBoyColor_BlueField: ; 0x1e739
 	db $01 ; total number of tiles
 
 	db $01 ; number of tiles
@@ -130,7 +130,7 @@ TileData_1e739: ; 0x1e739
 
 	db $00 ; terminator
 
-TileData_1e73f: ; 0x1e73f
+TileData_CaveLight_C_Off_GameBoyColor_BlueField: ; 0x1e73f
 	db $01 ; total number of tiles
 
 	db $01 ; number of tiles
@@ -139,7 +139,7 @@ TileData_1e73f: ; 0x1e73f
 
 	db $00 ; terminator
 
-TileData_1e745: ; 0x1e745
+TileData_CaveLight_A_Off_GameBoyColor_BlueField: ; 0x1e745
 	db $01 ; total number of tiles
 
 	db $01 ; number of tiles
@@ -148,7 +148,7 @@ TileData_1e745: ; 0x1e745
 
 	db $00 ; terminator
 
-TileData_1e74b: ; 0x1e74b
+TileData_CaveLight_V_Off_GameBoyColor_BlueField: ; 0x1e74b
 	db $01 ; total number of tiles
 
 	db $01 ; number of tiles
@@ -157,7 +157,7 @@ TileData_1e74b: ; 0x1e74b
 
 	db $00 ; terminator
 
-TileData_1e751: ; 0x1e751
+TileData_CaveLight_E_Off_GameBoyColor_BlueField: ; 0x1e751
 	db $01 ; total number of tiles
 
 	db $01 ; number of tiles

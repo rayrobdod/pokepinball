@@ -2371,27 +2371,28 @@ LoadCAVELightsGraphics_BlueField: ; 0x1e627
 LoadCAVELightGraphics_BlueField: ; 0x1e636
 ; Loads a graphics for single CAVE light.
 ; Input: a = toggle state for CAVE light
+;        b = which light to load graphics of
 	and a
 	jr z, .toggledOff
 	ld a, [hGameBoyColorFlag]
 	and a
 	jr nz, .toggledOnGameboy
-	ld hl, TileDataPointers_1e6d7
+	ld hl, TileDataPointers_CaveLights_On_GameBoy_BlueField
 	jr .load
 
 .toggledOnGameboy
-	ld hl, TileDataPointers_1e717
+	ld hl, TileDataPointers_CaveLights_On_GameBoyColor_BlueField
 	jr .load
 
 .toggledOff
 	ld a, [hGameBoyColorFlag]
 	and a
 	jr nz, .toggledOffGameboy
-	ld hl, TileDataPointers_1e6df
+	ld hl, TileDataPointers_CaveLights_Off_GameBoy_BlueField
 	jr .load
 
 .toggledOffGameboy
-	ld hl, TileDataPointers_1e71f
+	ld hl, TileDataPointers_CaveLights_Off_GameBoyColor_BlueField
 .load
 	push bc
 	dec b
@@ -2402,7 +2403,7 @@ LoadCAVELightGraphics_BlueField: ; 0x1e636
 	ld c, [hl]
 	inc hl
 	ld b, [hl]
-	ld a, Bank(TileDataPointers_1e6d7)
+	ld a, Bank(TileDataPointers_CaveLights_On_GameBoy_BlueField)
 	ld de, LoadTileLists
 	call QueueGraphicsToLoadWithFunc
 	pop bc
