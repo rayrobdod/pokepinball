@@ -421,104 +421,104 @@ TileData_16be5: ; 0x16be5
 	db Bank(StageRedFieldBottomIndicatorsGfx_Gameboy)
 	db $00
 
-TileDataPointers_16bef:
-	dw TileDataPointers_16bf9
-	dw TileDataPointers_16c03
-	dw TileDataPointers_16c0d
-	dw TileDataPointers_16c11
-	dw TileDataPointers_16c15
+TileDataPointers_ArrowIndicators_GameBoyColor_RedField:
+	dw TileDataPointers_ArrowIndicator_Evo_GameBoyColor_RedField
+	dw TileDataPointers_ArrowIndicator_Get_GameBoyColor_RedField
+	dw TileDataPointers_ArrowIndicator_LeftInsideLoop_GameBoyColor_RedField
+	dw TileDataPointers_ArrowIndicator_Bellsprout_GameBoyColor_RedField
+	dw TileDataPointers_ArrowIndicator_Cave_GameBoyColor_RedField
 
-TileDataPointers_16bf9: ; 0x16bf9
-	dw TileData_16c19
-	dw TileData_16c1c
-	dw TileData_16c1f
-	dw TileData_16c22
-	dw TileData_16c25
+TileDataPointers_ArrowIndicator_Evo_GameBoyColor_RedField: ; 0x16bf9
+	dw TileDataPointer_ArrowIndicator_Evo_0_GameBoyColor_RedField
+	dw TileDataPointer_ArrowIndicator_Evo_1_GameBoyColor_RedField
+	dw TileDataPointer_ArrowIndicator_Evo_2_GameBoyColor_RedField
+	dw TileDataPointer_ArrowIndicator_Evo_3_GameBoyColor_RedField
+	dw TileDataPointer_ArrowIndicator_Evo_tail_GameBoyColor_RedField
 
-TileDataPointers_16c03: ; 0x16c03
-	dw TileData_16c28
-	dw TileData_16c2b
-	dw TileData_16c2e
-	dw TileData_16c31
-	dw TileData_16c34
+TileDataPointers_ArrowIndicator_Get_GameBoyColor_RedField: ; 0x16c03
+	dw TileDataPointer_ArrowIndicator_Get_0_GameBoyColor_RedField
+	dw TileDataPointer_ArrowIndicator_Get_1_GameBoyColor_RedField
+	dw TileDataPointer_ArrowIndicator_Get_2_GameBoyColor_RedField
+	dw TileDataPointer_ArrowIndicator_Get_3_GameBoyColor_RedField
+	dw TileDataPointer_ArrowIndicator_Get_tail_GameBoyColor_RedField
 
-TileDataPointers_16c0d: ; 0x16c0d
-	dw TileData_16c37
-	dw TileData_16c3a
+TileDataPointers_ArrowIndicator_LeftInsideLoop_GameBoyColor_RedField: ; 0x16c0d
+	dw TileDataPointer_ArrowIndicator_LeftInsideLoop_Off_GameBoyColor_RedField
+	dw TileDataPointer_ArrowIndicator_LeftInsideLoop_On_GameBoyColor_RedField
 
-TileDataPointers_16c11: ; 0x16c11
-	dw TileData_16c3d
-	dw TileData_16c40
+TileDataPointers_ArrowIndicator_Bellsprout_GameBoyColor_RedField: ; 0x16c11
+	dw TileDataPointer_ArrowIndicator_Bellsprout_Off_GameBoyColor_RedField
+	dw TileDataPointer_ArrowIndicator_Bellsprout_On_GameBoyColor_RedField
 
-TileDataPointers_16c15: ; 0x16c15
-	dw TileData_16c43
-	dw TileData_16c46
+TileDataPointers_ArrowIndicator_Cave_GameBoyColor_RedField: ; 0x16c15
+	dw TileDataPointer_ArrowIndicator_Cave_Off_GameBoyColor_RedField
+	dw TileDataPointer_ArrowIndicator_Cave_On_GameBoyColor_RedField
 
-TileData_16c19: ; 0x16c19
+TileDataPointer_ArrowIndicator_Evo_0_GameBoyColor_RedField: ; 0x16c19
 	db $01
-	dw TileData_16c49
+	dw TileData_ArrowIndicator_Evo_0_GameBoyColor_RedField
 
-TileData_16c1c: ; 0x16c1c
+TileDataPointer_ArrowIndicator_Evo_1_GameBoyColor_RedField: ; 0x16c1c
 	db $01
-	dw TileData_16c63
+	dw TileData_ArrowIndicator_Evo_1_GameBoyColor_RedField
 
-TileData_16c1f: ; 0x16c1f
+TileDataPointer_ArrowIndicator_Evo_2_GameBoyColor_RedField: ; 0x16c1f
 	db $01
-	dw TileData_16c7d
+	dw TileData_ArrowIndicator_Evo_2_GameBoyColor_RedField
 
-TileData_16c22: ; 0x16c22
+TileDataPointer_ArrowIndicator_Evo_3_GameBoyColor_RedField: ; 0x16c22
 	db $01
-	dw TileData_16c97
+	dw TileData_ArrowIndicator_Evo_3_GameBoyColor_RedField
 
-TileData_16c25: ; 0x16c25
+TileDataPointer_ArrowIndicator_Evo_tail_GameBoyColor_RedField: ; 0x16c25
 	db $01
-	dw TileData_16cb1
+	dw TileData_ArrowIndicator_Evo_tail_GameBoyColor_RedField
 
-TileData_16c28: ; 0x16c28
+TileDataPointer_ArrowIndicator_Get_0_GameBoyColor_RedField: ; 0x16c28
 	db $01
-	dw TileData_16ccb
+	dw TileData_ArrowIndicator_Get_0_GameBoyColor_RedField
 
-TileData_16c2b: ; 0x16c2b
+TileDataPointer_ArrowIndicator_Get_1_GameBoyColor_RedField: ; 0x16c2b
 	db $01
-	dw TileData_16ce5
+	dw TileData_ArrowIndicator_Get_1_GameBoyColor_RedField
 
-TileData_16c2e: ; 0x16c2e
+TileDataPointer_ArrowIndicator_Get_2_GameBoyColor_RedField: ; 0x16c2e
 	db $01
-	dw TileData_16cff
+	dw TileData_ArrowIndicator_Get_2_GameBoyColor_RedField
 
-TileData_16c31: ; 0x16c31
+TileDataPointer_ArrowIndicator_Get_3_GameBoyColor_RedField: ; 0x16c31
 	db $01
-	dw TileData_16d19
+	dw TileData_ArrowIndicator_Get_3_GameBoyColor_RedField
 
-TileData_16c34: ; 0x16c34
+TileDataPointer_ArrowIndicator_Get_tail_GameBoyColor_RedField: ; 0x16c34
 	db $01
-	dw TileData_16d33
+	dw TileData_ArrowIndicator_Get_tail_GameBoyColor_RedField
 
-TileData_16c37: ; 0x16c37
+TileDataPointer_ArrowIndicator_LeftInsideLoop_Off_GameBoyColor_RedField: ; 0x16c37
 	db $01
-	dw TileData_16d4d
+	dw TileData_ArrowIndicator_LeftInsideLoop_Off_GameBoyColor_RedField
 
-TileData_16c3a: ; 0x16c3a
+TileDataPointer_ArrowIndicator_LeftInsideLoop_On_GameBoyColor_RedField: ; 0x16c3a
 	db $01
-	dw TileData_16d5a
+	dw TileData_ArrowIndicator_LeftInsideLoop_On_GameBoyColor_RedField
 
-TileData_16c3d: ; 0x16c3d
+TileDataPointer_ArrowIndicator_Bellsprout_Off_GameBoyColor_RedField: ; 0x16c3d
 	db $01
-	dw TileData_16d67
+	dw TileData_ArrowIndicator_Bellsprout_Off_GameBoyColor_RedField
 
-TileData_16c40: ; 0x16c40
+TileDataPointer_ArrowIndicator_Bellsprout_On_GameBoyColor_RedField: ; 0x16c40
 	db $01
-	dw TileData_16d74
+	dw TileData_ArrowIndicator_Bellsprout_On_GameBoyColor_RedField
 
-TileData_16c43: ; 0x16c43
+TileDataPointer_ArrowIndicator_Cave_Off_GameBoyColor_RedField: ; 0x16c43
 	db $01
-	dw TileData_16d81
+	dw TileData_ArrowIndicator_Cave_Off_GameBoyColor_RedField
 
-TileData_16c46: ; 0x16c46
+TileDataPointer_ArrowIndicator_Cave_On_GameBoyColor_RedField: ; 0x16c46
 	db $01
-	dw TileData_16d8f
+	dw TileData_ArrowIndicator_Cave_On_GameBoyColor_RedField
 
-TileData_16c49: ; 0x16c49
+TileData_ArrowIndicator_Evo_0_GameBoyColor_RedField: ; 0x16c49
 	dw LoadTileLists
 	db $07
 
@@ -544,7 +544,7 @@ TileData_16c49: ; 0x16c49
 
 	db $00
 
-TileData_16c63: ; 0x16c63
+TileData_ArrowIndicator_Evo_1_GameBoyColor_RedField: ; 0x16c63
 	dw LoadTileLists
 	db $07
 
@@ -570,7 +570,7 @@ TileData_16c63: ; 0x16c63
 
 	db $00
 
-TileData_16c7d: ; 0x16c7d
+TileData_ArrowIndicator_Evo_2_GameBoyColor_RedField: ; 0x16c7d
 	dw LoadTileLists
 	db $07
 
@@ -596,7 +596,7 @@ TileData_16c7d: ; 0x16c7d
 
 	db $00
 
-TileData_16c97: ; 0x16c97
+TileData_ArrowIndicator_Evo_3_GameBoyColor_RedField: ; 0x16c97
 	dw LoadTileLists
 	db $07
 
@@ -622,7 +622,7 @@ TileData_16c97: ; 0x16c97
 
 	db $00
 
-TileData_16cb1: ; 0x16cb1
+TileData_ArrowIndicator_Evo_tail_GameBoyColor_RedField: ; 0x16cb1
 	dw LoadTileLists
 	db $07
 
@@ -648,7 +648,7 @@ TileData_16cb1: ; 0x16cb1
 
 	db $00
 
-TileData_16ccb: ; 0x16ccb
+TileData_ArrowIndicator_Get_0_GameBoyColor_RedField: ; 0x16ccb
 	dw LoadTileLists
 	db $07
 
@@ -674,7 +674,7 @@ TileData_16ccb: ; 0x16ccb
 
 	db $00
 
-TileData_16ce5: ; 0x16ce5
+TileData_ArrowIndicator_Get_1_GameBoyColor_RedField: ; 0x16ce5
 	dw LoadTileLists
 	db $07
 
@@ -700,7 +700,7 @@ TileData_16ce5: ; 0x16ce5
 
 	db $00
 
-TileData_16cff: ; 0x16cff
+TileData_ArrowIndicator_Get_2_GameBoyColor_RedField: ; 0x16cff
 	dw LoadTileLists
 	db $07
 
@@ -726,7 +726,7 @@ TileData_16cff: ; 0x16cff
 
 	db $00
 
-TileData_16d19: ; 0x16d19
+TileData_ArrowIndicator_Get_3_GameBoyColor_RedField: ; 0x16d19
 	dw LoadTileLists
 	db $07
 
@@ -752,7 +752,7 @@ TileData_16d19: ; 0x16d19
 
 	db $00
 
-TileData_16d33: ; 0x16d33
+TileData_ArrowIndicator_Get_tail_GameBoyColor_RedField: ; 0x16d33
 	dw LoadTileLists
 	db $07
 
@@ -778,7 +778,7 @@ TileData_16d33: ; 0x16d33
 
 	db $00
 
-TileData_16d4d: ; 0x16d4d
+TileData_ArrowIndicator_LeftInsideLoop_Off_GameBoyColor_RedField: ; 0x16d4d
 	dw LoadTileLists
 	db $03
 
@@ -792,7 +792,7 @@ TileData_16d4d: ; 0x16d4d
 
 	db $00
 
-TileData_16d5a: ; 0x16d5a
+TileData_ArrowIndicator_LeftInsideLoop_On_GameBoyColor_RedField: ; 0x16d5a
 	dw LoadTileLists
 	db $03
 
@@ -806,7 +806,7 @@ TileData_16d5a: ; 0x16d5a
 
 	db $00
 
-TileData_16d67: ; 0x16d67
+TileData_ArrowIndicator_Bellsprout_Off_GameBoyColor_RedField: ; 0x16d67
 	dw LoadTileLists
 	db $03
 
@@ -820,7 +820,7 @@ TileData_16d67: ; 0x16d67
 
 	db $00
 
-TileData_16d74: ; 0x16d74
+TileData_ArrowIndicator_Bellsprout_On_GameBoyColor_RedField: ; 0x16d74
 	dw LoadTileLists
 	db $03
 
@@ -834,7 +834,7 @@ TileData_16d74: ; 0x16d74
 
 	db $00
 
-TileData_16d81: ; 0x16d81
+TileData_ArrowIndicator_Cave_Off_GameBoyColor_RedField: ; 0x16d81
 	dw LoadTileLists
 	db $04
 
@@ -848,7 +848,7 @@ TileData_16d81: ; 0x16d81
 
 	db $00
 
-TileData_16d8f: ; 0x16d8f
+TileData_ArrowIndicator_Cave_On_GameBoyColor_RedField: ; 0x16d8f
 	dw LoadTileLists
 	db $04
 

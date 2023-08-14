@@ -2665,7 +2665,7 @@ LoadArrowIndicatorGraphics_RedField: ; 0x169cd
 	ld a, [hGameBoyColorFlag]
 	and a
 	jr z, .asm_169db
-	ld hl, TileDataPointers_16bef
+	ld hl, TileDataPointers_ArrowIndicators_GameBoyColor_RedField
 .asm_169db
 	add hl, bc ;add offset, load pointer into HL
 	ld a, [hli]
