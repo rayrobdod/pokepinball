@@ -1405,7 +1405,11 @@ Func_1198:
 	pop hl
 	jr .asm_119a
 
-Func_11b5: ; 11b5 (0:11b5)
+FillTileLists: ; 11b5 (0:11b5)
+; Loads a series of defined tile ids into VRAM
+; input:  de = pointer to data structure
+; data structure:  list of VRAM tile data with the following format
+;        [num tiles][destination pointer][tile id]
 	ld h, d
 	ld l, e
 .asm_11b7
@@ -1428,7 +1432,7 @@ Func_11b5: ; 11b5 (0:11b5)
 Func_11c7:
 	ld a, $1
 	ld [rVBK], a
-	call Func_11b5
+	call FillTileLists
 	xor a
 	ld [rVBK], a
 	ret
