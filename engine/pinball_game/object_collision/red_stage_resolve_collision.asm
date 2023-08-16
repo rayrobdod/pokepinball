@@ -2661,7 +2661,7 @@ UpdateArrowIndicators_RedField: ; 0x169a6
 LoadArrowIndicatorGraphics_RedField: ; 0x169cd
 	push af
 	sla c ;double offset
-	ld hl, TileDataPointers_169ed
+	ld hl, TileDataPointers_ArrowIndicator_GameBoy_RedField
 	ld a, [hGameBoyColorFlag]
 	and a
 	jr z, .asm_169db
@@ -2678,7 +2678,7 @@ LoadArrowIndicatorGraphics_RedField: ; 0x169cd
 	ld a, [hli]
 	ld h, [hl]
 	ld l, a
-	ld a, Bank(TileDataPointers_169ed)
+	ld a, Bank(TileDataPointers_ArrowIndicator_GameBoy_RedField)
 	call QueueGraphicsToLoad
 	ret
 

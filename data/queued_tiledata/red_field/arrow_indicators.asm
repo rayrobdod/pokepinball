@@ -1,123 +1,123 @@
-TileDataPointers_169ed:
-	dw TileDataPointers_169f7
-	dw TileDataPointers_16a01
-	dw TileDataPointers_16a0b
-	dw TileDataPointers_16a0f
-	dw TileDataPointers_16a13
+TileDataPointers_ArrowIndicator_GameBoy_RedField: ; 0x169ed
+	dw TileDataPointers_ArrowIndicator_Evo_GameBoy_RedField
+	dw TileDataPointers_ArrowIndicator_Get_GameBoy_RedField
+	dw TileDataPointers_ArrowIndicator_LeftInsideLoop_GameBoy_RedField
+	dw TileDataPointers_ArrowIndicator_Bellsprout_GameBoy_RedField
+	dw TileDataPointers_ArrowIndicator_Cave_GameBoy_RedField
 
-TileDataPointers_169f7: ; 0x169f7
-	dw TileData_16a17
-	dw TileData_16a1e
-	dw TileData_16a25
-	dw TileData_16a2c
-	dw TileData_16a33
+TileDataPointers_ArrowIndicator_Evo_GameBoy_RedField: ; 0x169f7
+	dw TileDataPointer_ArrowIndicator_Evo_0_GameBoy_RedField
+	dw TileDataPointer_ArrowIndicator_Evo_1_GameBoy_RedField
+	dw TileDataPointer_ArrowIndicator_Evo_2_GameBoy_RedField
+	dw TileDataPointer_ArrowIndicator_Evo_3_GameBoy_RedField
+	dw TileDataPointer_ArrowIndicator_Evo_tail_GameBoy_RedField
 
-TileDataPointers_16a01: ; 0x16a01
-	dw TileData_16a3a
-	dw TileData_16a41
-	dw TileData_16a48
-	dw TileData_16a4f
-	dw TileData_16a56
+TileDataPointers_ArrowIndicator_Get_GameBoy_RedField: ; 0x16a01
+	dw TileDataPointer_ArrowIndicator_Get_0_GameBoy_RedField
+	dw TileDataPointer_ArrowIndicator_Get_1_GameBoy_RedField
+	dw TileDataPointer_ArrowIndicator_Get_2_GameBoy_RedField
+	dw TileDataPointer_ArrowIndicator_Get_3_GameBoy_RedField
+	dw TileDataPointer_ArrowIndicator_Get_tail_GameBoy_RedField
 
-TileDataPointers_16a0b: ; 0x16a0b
-	dw TileData_16a5d
-	dw TileData_16a60
+TileDataPointers_ArrowIndicator_LeftInsideLoop_GameBoy_RedField: ; 0x16a0b
+	dw TileDataPointer_ArrowIndicator_LeftInsideLoop_Off_GameBoy_RedField
+	dw TileDataPointer_ArrowIndicator_LeftInsideLoop_On_GameBoy_RedField
 
-TileDataPointers_16a0f: ; 0x16a0f
-	dw TileData_16a63
-	dw TileData_16a66
+TileDataPointers_ArrowIndicator_Bellsprout_GameBoy_RedField: ; 0x16a0f
+	dw TileDataPointer_ArrowIndicator_Bellsprout_Off_GameBoy_RedField
+	dw TileDataPointer_ArrowIndicator_Bellsprout_On_GameBoy_RedField
 
-TileDataPointers_16a13: ; 0x16a13
-	dw TileData_16a69
-	dw TileData_16a6e
+TileDataPointers_ArrowIndicator_Cave_GameBoy_RedField: ; 0x16a13
+	dw TileDataPointer_ArrowIndicator_Cave_Off_GameBoy_RedField
+	dw TileDataPointer_ArrowIndicator_Cave_On_GameBoy_RedField
 
-TileData_16a17: ; 0x16a17
+TileDataPointer_ArrowIndicator_Evo_0_GameBoy_RedField: ; 0x16a17
 	db $03
-	dw TileData_16a73
-	dw TileData_16a7d
-	dw TileData_16a87
+	dw TileData_ArrowIndicator_Evo_0_a_GameBoy_RedField
+	dw TileData_ArrowIndicator_Evo_0_b_GameBoy_RedField
+	dw TileData_ArrowIndicator_Evo_0_c_GameBoy_RedField
 
-TileData_16a1e: ; 0x16a1e
+TileDataPointer_ArrowIndicator_Evo_1_GameBoy_RedField: ; 0x16a1e
 	db $03
-	dw TileData_16a91
-	dw TileData_16a9b
-	dw TileData_16aa5
+	dw TileData_ArrowIndicator_Evo_1_a_GameBoy_RedField
+	dw TileData_ArrowIndicator_Evo_1_b_GameBoy_RedField
+	dw TileData_ArrowIndicator_Evo_1_c_GameBoy_RedField
 
-TileData_16a25: ; 0x16a25
+TileDataPointer_ArrowIndicator_Evo_2_GameBoy_RedField: ; 0x16a25
 	db $03
-	dw TileData_16aaf
-	dw TileData_16ab9
-	dw TileData_16ac3
+	dw TileData_ArrowIndicator_Evo_2_a_GameBoy_RedField
+	dw TileData_ArrowIndicator_Evo_2_b_GameBoy_RedField
+	dw TileData_ArrowIndicator_Evo_2_c_GameBoy_RedField
 
-TileData_16a2c: ; 0x16a2c
+TileDataPointer_ArrowIndicator_Evo_3_GameBoy_RedField: ; 0x16a2c
 	db $03
-	dw TileData_16acd
-	dw TileData_16ad7
-	dw TileData_16ae1
+	dw TileData_ArrowIndicator_Evo_3_a_GameBoy_RedField
+	dw TileData_ArrowIndicator_Evo_3_b_GameBoy_RedField
+	dw TileData_ArrowIndicator_Evo_3_c_GameBoy_RedField
 
-TileData_16a33: ; 0x16a33
+TileDataPointer_ArrowIndicator_Evo_tail_GameBoy_RedField: ; 0x16a33
 	db $03
-	dw TileData_16aeb
-	dw TileData_16af5
-	dw TileData_16aff
+	dw TileData_ArrowIndicator_Evo_tail_a_GameBoy_RedField
+	dw TileData_ArrowIndicator_Evo_tail_b_GameBoy_RedField
+	dw TileData_ArrowIndicator_Evo_tail_c_GameBoy_RedField
 
-TileData_16a3a: ; 0x16a3a
+TileDataPointer_ArrowIndicator_Get_0_GameBoy_RedField: ; 0x16a3a
 	db $03
-	dw TileData_16b09
-	dw TileData_16b13
-	dw TileData_16b1d
+	dw TileData_ArrowIndicator_Get_0_a_GameBoy_RedField
+	dw TileData_ArrowIndicator_Get_0_b_GameBoy_RedField
+	dw TileData_ArrowIndicator_Get_0_c_GameBoy_RedField
 
-TileData_16a41: ; 0x16a41
+TileDataPointer_ArrowIndicator_Get_1_GameBoy_RedField: ; 0x16a41
 	db $03
-	dw TileData_16b27
-	dw TileData_16b31
-	dw TileData_16b3b
+	dw TileData_ArrowIndicator_Get_1_a_GameBoy_RedField
+	dw TileData_ArrowIndicator_Get_1_b_GameBoy_RedField
+	dw TileData_ArrowIndicator_Get_1_c_GameBoy_RedField
 
-TileData_16a48: ; 0x16a48
+TileDataPointer_ArrowIndicator_Get_2_GameBoy_RedField: ; 0x16a48
 	db $03
-	dw TileData_16b45
-	dw TileData_16b4f
-	dw TileData_16b59
+	dw TileData_ArrowIndicator_Get_2_a_GameBoy_RedField
+	dw TileData_ArrowIndicator_Get_2_b_GameBoy_RedField
+	dw TileData_ArrowIndicator_Get_2_c_GameBoy_RedField
 
-TileData_16a4f: ; 0x16a4f
+TileDataPointer_ArrowIndicator_Get_3_GameBoy_RedField: ; 0x16a4f
 	db $03
-	dw TileData_16b63
-	dw TileData_16b6d
-	dw TileData_16b77
+	dw TileData_ArrowIndicator_Get_3_a_GameBoy_RedField
+	dw TileData_ArrowIndicator_Get_3_b_GameBoy_RedField
+	dw TileData_ArrowIndicator_Get_3_c_GameBoy_RedField
 
-TileData_16a56: ; 0x16a56
+TileDataPointer_ArrowIndicator_Get_tail_GameBoy_RedField: ; 0x16a56
 	db $03
-	dw TileData_16b81
-	dw TileData_16b8b
-	dw TileData_16b95
+	dw TileData_ArrowIndicator_Get_tail_a_GameBoy_RedField
+	dw TileData_ArrowIndicator_Get_tail_b_GameBoy_RedField
+	dw TileData_ArrowIndicator_Get_tail_c_GameBoy_RedField
 
-TileData_16a5d: ; 0x16a5d
+TileDataPointer_ArrowIndicator_LeftInsideLoop_Off_GameBoy_RedField: ; 0x16a5d
 	db $01
-	dw TileData_16b9f
+	dw TileData_ArrowIndicator_LeftInsideLoop_Off_GameBoy_RedField
 
-TileData_16a60: ; 0x16a60
+TileDataPointer_ArrowIndicator_LeftInsideLoop_On_GameBoy_RedField: ; 0x16a60
 	db $01
-	dw TileData_16ba9
+	dw TileData_ArrowIndicator_LeftInsideLoop_On_GameBoy_RedField
 
-TileData_16a63: ; 0x16a63
+TileDataPointer_ArrowIndicator_Bellsprout_Off_GameBoy_RedField: ; 0x16a63
 	db $01
-	dw TileData_16bb3
+	dw TileData_ArrowIndicator_Bellsprout_Off_GameBoy_RedField
 
-TileData_16a66: ; 0x16a66
+TileDataPointer_ArrowIndicator_Bellsprout_On_GameBoy_RedField: ; 0x16a66
 	db $01
-	dw TileData_16bbd
+	dw TileData_ArrowIndicator_Bellsprout_On_GameBoy_RedField
 
-TileData_16a69: ; 0x16a69
+TileDataPointer_ArrowIndicator_Cave_Off_GameBoy_RedField: ; 0x16a69
 	db $02
-	dw TileData_16bc7
-	dw TileData_16bd1
+	dw TileData_ArrowIndicator_Cave_Off_a_GameBoy_RedField
+	dw TileData_ArrowIndicator_Cave_Off_b_GameBoy_RedField
 
-TileData_16a6e: ; 0x16a6e
+TileDataPointer_ArrowIndicator_Cave_On_GameBoy_RedField: ; 0x16a6e
 	db $02
-	dw TileData_16bdb
-	dw TileData_16be5
+	dw TileData_ArrowIndicator_Cave_On_a_GameBoy_RedField
+	dw TileData_ArrowIndicator_Cave_On_b_GameBoy_RedField
 
-TileData_16a73: ; 0x16a73
+TileData_ArrowIndicator_Evo_0_a_GameBoy_RedField: ; 0x16a73
 	dw Func_11d2
 	db $30, $03
 	dw vTilesBG tile $3A
@@ -125,7 +125,7 @@ TileData_16a73: ; 0x16a73
 	db Bank(StageRedFieldBottomBaseGameBoyGfx)
 	db $00
 
-TileData_16a7d: ; 0x16a7d
+TileData_ArrowIndicator_Evo_0_b_GameBoy_RedField: ; 0x16a7d
 	dw Func_11d2
 	db $30, $03
 	dw vTilesBG tile $3D
@@ -133,7 +133,7 @@ TileData_16a7d: ; 0x16a7d
 	db Bank(StageRedFieldBottomBaseGameBoyGfx)
 	db $00
 
-TileData_16a87: ; 0x16a87
+TileData_ArrowIndicator_Evo_0_c_GameBoy_RedField: ; 0x16a87
 	dw Func_11d2
 	db $10, $01
 	dw vTilesBG tile $40
@@ -141,7 +141,7 @@ TileData_16a87: ; 0x16a87
 	db Bank(StageRedFieldBottomBaseGameBoyGfx)
 	db $00
 
-TileData_16a91: ; 0x16a91
+TileData_ArrowIndicator_Evo_1_a_GameBoy_RedField: ; 0x16a91
 	dw Func_11d2
 	db $30, $03
 	dw vTilesBG tile $3A
@@ -149,7 +149,7 @@ TileData_16a91: ; 0x16a91
 	db Bank(StageRedFieldBottomIndicatorsGfx_Gameboy)
 	db $00
 
-TileData_16a9b: ; 0x16a9b
+TileData_ArrowIndicator_Evo_1_b_GameBoy_RedField: ; 0x16a9b
 	dw Func_11d2
 	db $30, $03
 	dw vTilesBG tile $3D
@@ -157,7 +157,7 @@ TileData_16a9b: ; 0x16a9b
 	db Bank(StageRedFieldBottomIndicatorsGfx_Gameboy)
 	db $00
 
-TileData_16aa5: ; 0x16aa5
+TileData_ArrowIndicator_Evo_1_c_GameBoy_RedField: ; 0x16aa5
 	dw Func_11d2
 	db $10, $01
 	dw vTilesBG tile $40
@@ -165,7 +165,7 @@ TileData_16aa5: ; 0x16aa5
 	db Bank(StageRedFieldBottomIndicatorsGfx_Gameboy)
 	db $00
 
-TileData_16aaf: ; 0x16aaf
+TileData_ArrowIndicator_Evo_2_a_GameBoy_RedField: ; 0x16aaf
 	dw Func_11d2
 	db $30, $03
 	dw vTilesBG tile $3A
@@ -173,7 +173,7 @@ TileData_16aaf: ; 0x16aaf
 	db Bank(StageRedFieldBottomIndicatorsGfx_Gameboy)
 	db $00
 
-TileData_16ab9: ; 0x16ab9
+TileData_ArrowIndicator_Evo_2_b_GameBoy_RedField: ; 0x16ab9
 	dw Func_11d2
 	db $30, $03
 	dw vTilesBG tile $3D
@@ -181,7 +181,7 @@ TileData_16ab9: ; 0x16ab9
 	db Bank(StageRedFieldBottomIndicatorsGfx_Gameboy)
 	db $00
 
-TileData_16ac3: ; 0x16ac3
+TileData_ArrowIndicator_Evo_2_c_GameBoy_RedField: ; 0x16ac3
 	dw Func_11d2
 	db $10, $01
 	dw vTilesBG tile $40
@@ -189,7 +189,7 @@ TileData_16ac3: ; 0x16ac3
 	db Bank(StageRedFieldBottomIndicatorsGfx_Gameboy)
 	db $00
 
-TileData_16acd: ; 0x16acd
+TileData_ArrowIndicator_Evo_3_a_GameBoy_RedField: ; 0x16acd
 	dw Func_11d2
 	db $30, $03
 	dw vTilesBG tile $3A
@@ -197,7 +197,7 @@ TileData_16acd: ; 0x16acd
 	db Bank(StageRedFieldBottomIndicatorsGfx_Gameboy)
 	db $00
 
-TileData_16ad7: ; 0x16ad7
+TileData_ArrowIndicator_Evo_3_b_GameBoy_RedField: ; 0x16ad7
 	dw Func_11d2
 	db $30, $03
 	dw vTilesBG tile $3D
@@ -205,7 +205,7 @@ TileData_16ad7: ; 0x16ad7
 	db Bank(StageRedFieldBottomIndicatorsGfx_Gameboy)
 	db $00
 
-TileData_16ae1: ; 0x16ae1
+TileData_ArrowIndicator_Evo_3_c_GameBoy_RedField: ; 0x16ae1
 	dw Func_11d2
 	db $10, $01
 	dw vTilesBG tile $40
@@ -213,7 +213,7 @@ TileData_16ae1: ; 0x16ae1
 	db Bank(StageRedFieldBottomIndicatorsGfx_Gameboy)
 	db $00
 
-TileData_16aeb: ; 0x16aeb
+TileData_ArrowIndicator_Evo_tail_a_GameBoy_RedField: ; 0x16aeb
 	dw Func_11d2
 	db $30, $03
 	dw vTilesBG tile $3A
@@ -221,7 +221,7 @@ TileData_16aeb: ; 0x16aeb
 	db Bank(StageRedFieldBottomIndicatorsGfx_Gameboy)
 	db $00
 
-TileData_16af5: ; 0x16af5
+TileData_ArrowIndicator_Evo_tail_b_GameBoy_RedField: ; 0x16af5
 	dw Func_11d2
 	db $30, $03
 	dw vTilesBG tile $3D
@@ -229,7 +229,7 @@ TileData_16af5: ; 0x16af5
 	db Bank(StageRedFieldBottomIndicatorsGfx_Gameboy)
 	db $00
 
-TileData_16aff: ; 0x16aff
+TileData_ArrowIndicator_Evo_tail_c_GameBoy_RedField: ; 0x16aff
 	dw Func_11d2
 	db $10, $01
 	dw vTilesBG tile $40
@@ -237,7 +237,7 @@ TileData_16aff: ; 0x16aff
 	db Bank(StageRedFieldBottomIndicatorsGfx_Gameboy)
 	db $00
 
-TileData_16b09: ; 0x16b09
+TileData_ArrowIndicator_Get_0_a_GameBoy_RedField: ; 0x16b09
 	dw Func_11d2
 	db $30, $03
 	dw vTilesBG tile $41
@@ -245,7 +245,7 @@ TileData_16b09: ; 0x16b09
 	db Bank(StageRedFieldBottomBaseGameBoyGfx)
 	db $00
 
-TileData_16b13: ; 0x16b13
+TileData_ArrowIndicator_Get_0_b_GameBoy_RedField: ; 0x16b13
 	dw Func_11d2
 	db $30, $03
 	dw vTilesBG tile $44
@@ -253,7 +253,7 @@ TileData_16b13: ; 0x16b13
 	db Bank(StageRedFieldBottomBaseGameBoyGfx)
 	db $00
 
-TileData_16b1d: ; 0x16b1d
+TileData_ArrowIndicator_Get_0_c_GameBoy_RedField: ; 0x16b1d
 	dw Func_11d2
 	db $10, $01
 	dw vTilesBG tile $47
@@ -261,7 +261,7 @@ TileData_16b1d: ; 0x16b1d
 	db Bank(StageRedFieldBottomBaseGameBoyGfx)
 	db $00
 
-TileData_16b27: ; 0x16b27
+TileData_ArrowIndicator_Get_1_a_GameBoy_RedField: ; 0x16b27
 	dw Func_11d2
 	db $30, $03
 	dw vTilesBG tile $41
@@ -269,7 +269,7 @@ TileData_16b27: ; 0x16b27
 	db Bank(StageRedFieldBottomIndicatorsGfx_Gameboy)
 	db $00
 
-TileData_16b31: ; 0x16b31
+TileData_ArrowIndicator_Get_1_b_GameBoy_RedField: ; 0x16b31
 	dw Func_11d2
 	db $30, $03
 	dw vTilesBG tile $44
@@ -277,7 +277,7 @@ TileData_16b31: ; 0x16b31
 	db Bank(StageRedFieldBottomIndicatorsGfx_Gameboy)
 	db $00
 
-TileData_16b3b: ; 0x16b3b
+TileData_ArrowIndicator_Get_1_c_GameBoy_RedField: ; 0x16b3b
 	dw Func_11d2
 	db $10, $01
 	dw vTilesBG tile $47
@@ -285,7 +285,7 @@ TileData_16b3b: ; 0x16b3b
 	db Bank(StageRedFieldBottomIndicatorsGfx_Gameboy)
 	db $00
 
-TileData_16b45: ; 0x16b45
+TileData_ArrowIndicator_Get_2_a_GameBoy_RedField: ; 0x16b45
 	dw Func_11d2
 	db $30, $03
 	dw vTilesBG tile $41
@@ -293,7 +293,7 @@ TileData_16b45: ; 0x16b45
 	db Bank(StageRedFieldBottomIndicatorsGfx_Gameboy)
 	db $00
 
-TileData_16b4f: ; 0x16b4f
+TileData_ArrowIndicator_Get_2_b_GameBoy_RedField: ; 0x16b4f
 	dw Func_11d2
 	db $30, $03
 	dw vTilesBG tile $44
@@ -301,7 +301,7 @@ TileData_16b4f: ; 0x16b4f
 	db Bank(StageRedFieldBottomIndicatorsGfx_Gameboy)
 	db $00
 
-TileData_16b59: ; 0x16b59
+TileData_ArrowIndicator_Get_2_c_GameBoy_RedField: ; 0x16b59
 	dw Func_11d2
 	db $10, $01
 	dw vTilesBG tile $47
@@ -309,7 +309,7 @@ TileData_16b59: ; 0x16b59
 	db Bank(StageRedFieldBottomIndicatorsGfx_Gameboy)
 	db $00
 
-TileData_16b63: ; 0x16b63
+TileData_ArrowIndicator_Get_3_a_GameBoy_RedField: ; 0x16b63
 	dw Func_11d2
 	db $30, $03
 	dw vTilesBG tile $41
@@ -317,7 +317,7 @@ TileData_16b63: ; 0x16b63
 	db Bank(StageRedFieldBottomIndicatorsGfx_Gameboy)
 	db $00
 
-TileData_16b6d: ; 0x16b6d
+TileData_ArrowIndicator_Get_3_b_GameBoy_RedField: ; 0x16b6d
 	dw Func_11d2
 	db $30, $03
 	dw vTilesBG tile $44
@@ -325,7 +325,7 @@ TileData_16b6d: ; 0x16b6d
 	db Bank(StageRedFieldBottomIndicatorsGfx_Gameboy)
 	db $00
 
-TileData_16b77: ; 0x16b77
+TileData_ArrowIndicator_Get_3_c_GameBoy_RedField: ; 0x16b77
 	dw Func_11d2
 	db $10, $01
 	dw vTilesBG tile $47
@@ -333,7 +333,7 @@ TileData_16b77: ; 0x16b77
 	db Bank(StageRedFieldBottomIndicatorsGfx_Gameboy)
 	db $00
 
-TileData_16b81: ; 0x16b81
+TileData_ArrowIndicator_Get_tail_a_GameBoy_RedField: ; 0x16b81
 	dw Func_11d2
 	db $30, $03
 	dw vTilesBG tile $41
@@ -341,7 +341,7 @@ TileData_16b81: ; 0x16b81
 	db Bank(StageRedFieldBottomIndicatorsGfx_Gameboy)
 	db $00
 
-TileData_16b8b: ; 0x16b8b
+TileData_ArrowIndicator_Get_tail_b_GameBoy_RedField: ; 0x16b8b
 	dw Func_11d2
 	db $30, $03
 	dw vTilesBG tile $44
@@ -349,7 +349,7 @@ TileData_16b8b: ; 0x16b8b
 	db Bank(StageRedFieldBottomIndicatorsGfx_Gameboy)
 	db $00
 
-TileData_16b95: ; 0x16b95
+TileData_ArrowIndicator_Get_tail_c_GameBoy_RedField: ; 0x16b95
 	dw Func_11d2
 	db $10, $01
 	dw vTilesBG tile $47
@@ -357,7 +357,7 @@ TileData_16b95: ; 0x16b95
 	db Bank(StageRedFieldBottomIndicatorsGfx_Gameboy)
 	db $00
 
-TileData_16b9f: ; 0x16b9f
+TileData_ArrowIndicator_LeftInsideLoop_Off_GameBoy_RedField: ; 0x16b9f
 	dw Func_11d2
 	db $30, $03
 	dw vTilesBG tile $20
@@ -365,7 +365,7 @@ TileData_16b9f: ; 0x16b9f
 	db Bank(StageRedFieldBottomBaseGameBoyGfx)
 	db $00
 
-TileData_16ba9: ; 0x16ba9
+TileData_ArrowIndicator_LeftInsideLoop_On_GameBoy_RedField: ; 0x16ba9
 	dw Func_11d2
 	db $30, $03
 	dw vTilesBG tile $20
@@ -373,7 +373,7 @@ TileData_16ba9: ; 0x16ba9
 	db Bank(StageRedFieldBottomIndicatorsGfx_Gameboy)
 	db $00
 
-TileData_16bb3: ; 0x16bb3
+TileData_ArrowIndicator_Bellsprout_Off_GameBoy_RedField: ; 0x16bb3
 	dw Func_11d2
 	db $30, $03
 	dw vTilesBG tile $23
@@ -381,7 +381,7 @@ TileData_16bb3: ; 0x16bb3
 	db Bank(StageRedFieldBottomBaseGameBoyGfx)
 	db $00
 
-TileData_16bbd: ; 0x16bbd
+TileData_ArrowIndicator_Bellsprout_On_GameBoy_RedField: ; 0x16bbd
 	dw Func_11d2
 	db $30, $03
 	dw vTilesBG tile $23
@@ -389,7 +389,7 @@ TileData_16bbd: ; 0x16bbd
 	db Bank(StageRedFieldBottomIndicatorsGfx_Gameboy)
 	db $00
 
-TileData_16bc7: ; 0x16bc7
+TileData_ArrowIndicator_Cave_Off_a_GameBoy_RedField: ; 0x16bc7
 	dw Func_11d2
 	db $20, $02
 	dw vTilesBG tile $1C
@@ -397,7 +397,7 @@ TileData_16bc7: ; 0x16bc7
 	db Bank(StageRedFieldBottomBaseGameBoyGfx)
 	db $00
 
-TileData_16bd1: ; 0x16bd1
+TileData_ArrowIndicator_Cave_Off_b_GameBoy_RedField: ; 0x16bd1
 	dw Func_11d2
 	db $20, $02
 	dw vTilesBG tile $1E
@@ -405,7 +405,7 @@ TileData_16bd1: ; 0x16bd1
 	db Bank(StageRedFieldBottomBaseGameBoyGfx)
 	db $00
 
-TileData_16bdb: ; 0x16bdb
+TileData_ArrowIndicator_Cave_On_a_GameBoy_RedField: ; 0x16bdb
 	dw Func_11d2
 	db $20, $02
 	dw vTilesBG tile $1C
@@ -413,7 +413,7 @@ TileData_16bdb: ; 0x16bdb
 	db Bank(StageRedFieldBottomIndicatorsGfx_Gameboy)
 	db $00
 
-TileData_16be5: ; 0x16be5
+TileData_ArrowIndicator_Cave_On_b_GameBoy_RedField: ; 0x16be5
 	dw Func_11d2
 	db $20, $02
 	dw vTilesBG tile $1E
