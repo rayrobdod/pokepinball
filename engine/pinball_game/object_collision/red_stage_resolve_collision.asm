@@ -1049,7 +1049,7 @@ LoadPinballUpgradeTriggerGraphics_RedField: ; 0x15465
 	jr .load
 
 .toggledOnGameboy
-	ld hl, TileDataPointers_15543
+	ld hl, TileDataPointers_BallUpgrade_On_GameBoyColor_RedField
 	jr .load
 
 .toggledOff
@@ -1060,7 +1060,7 @@ LoadPinballUpgradeTriggerGraphics_RedField: ; 0x15465
 	jr .load
 
 .toggledOffGameboy
-	ld hl, TileDataPointers_15549
+	ld hl, TileDataPointers_BallUpgrade_Off_GameBoyColor_RedField
 .load
 	push bc
 	dec b

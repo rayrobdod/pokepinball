@@ -62,17 +62,17 @@ TileData_1553d: ; 0x1553d
 
 	db $00 ; terminator
 
-TileDataPointers_15543:
-	dw TileData_1554f
-	dw TileData_15555
-	dw TileData_1555c
+TileDataPointers_BallUpgrade_On_GameBoyColor_RedField: ; 0x15543
+	dw TileData_BallUpgrade_Left_On_GameBoyColor_RedField
+	dw TileData_BallUpgrade_Center_On_GameBoyColor_RedField
+	dw TileData_BallUpgrade_Right_On_GameBoyColor_RedField
 
-TileDataPointers_15549:
-	dw TileData_15562
-	dw TileData_15568
-	dw TileData_1556F
+TileDataPointers_BallUpgrade_Off_GameBoyColor_RedField: ; 0x15549
+	dw TileData_BallUpgrade_Left_Off_GameBoyColor_RedField
+	dw TileData_BallUpgrade_Center_Off_GameBoyColor_RedField
+	dw TileData_BallUpgrade_Right_Off_GameBoyColor_RedField
 
-TileData_1554f: ; 0x1554f
+TileData_BallUpgrade_Left_On_GameBoyColor_RedField: ; 0x1554f
 	db $01 ; total number of tiles
 
 	db $01 ; number of tiles
@@ -81,7 +81,7 @@ TileData_1554f: ; 0x1554f
 
 	db $00 ; terminator
 
-TileData_15555: ; 0x15555
+TileData_BallUpgrade_Center_On_GameBoyColor_RedField: ; 0x15555
 	db $02 ; total number of tiles
 
 	db $02 ; number of tiles
@@ -90,7 +90,7 @@ TileData_15555: ; 0x15555
 
 	db $00 ; terminator
 
-TileData_1555c: ; 0x1555c
+TileData_BallUpgrade_Right_On_GameBoyColor_RedField: ; 0x1555c
 	db $01 ; total number of tiles
 
 	db $01 ; number of tiles
@@ -99,7 +99,7 @@ TileData_1555c: ; 0x1555c
 
 	db $00 ; terminator
 
-TileData_15562: ; 0x15562
+TileData_BallUpgrade_Left_Off_GameBoyColor_RedField: ; 0x15562
 	db $01 ; total number of tiles
 
 	db $01 ; number of tiles
@@ -108,7 +108,7 @@ TileData_15562: ; 0x15562
 
 	db $00 ; terminator
 
-TileData_15568: ; 0x15568
+TileData_BallUpgrade_Center_Off_GameBoyColor_RedField: ; 0x15568
 	db $02 ; total number of tiles
 
 	db $02 ; number of tiles
@@ -117,7 +117,7 @@ TileData_15568: ; 0x15568
 
 	db $00 ; terminator
 
-TileData_1556F: ; 0x1556F
+TileData_BallUpgrade_Right_Off_GameBoyColor_RedField: ; 0x1556F
 	db $01 ; total number of tiles
 
 	db $01 ; number of tiles
