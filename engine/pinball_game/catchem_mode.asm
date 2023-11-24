@@ -1079,7 +1079,7 @@ SetPokemonSeenFlag: ; 0x10753
 	set 0, [hl]
 	ld hl, wPokedexFlags
 	ld de, sPokedexFlags
-	ld bc, $0098
+	ld bc, wPokedexFlagsEnd - wPokedexFlags
 	call SaveData
 	ret
 
@@ -1100,7 +1100,7 @@ SetPokemonOwnedFlag: ; 0x1077c
 	set 1, [hl]
 	ld hl, wPokedexFlags
 	ld de, sPokedexFlags
-	ld bc, $0098
+	ld bc, wPokedexFlagsEnd - wPokedexFlags
 	call SaveData
 	ret
 

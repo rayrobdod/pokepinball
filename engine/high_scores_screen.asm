@@ -355,9 +355,9 @@ Func_ccb6: ; 0xccb6
 	hlCoord 0, 14, vBGWin
 	ld de, wBlueHighScore5Id + $3
 	call Func_d361
-	ld hl, wRedHighScore1Points
+	ld hl, wHighScores
 	ld de, sHighScores
-	ld bc, $0082
+	ld bc, wHighScoresEnd - wHighScores
 	call SaveData
 	ret
 
@@ -522,9 +522,9 @@ Func_cdce: ; 0xcdce
 	hlCoord 0, 14, vBGWin
 	ld de, wBlueHighScore5Id + $3
 	call Func_d361
-	ld hl, wRedHighScore1Points
+	ld hl, wHighScores
 	ld de, sHighScores
-	ld bc, $0082
+	ld bc, wHighScoresEnd - wHighScores
 	call SaveData
 	and a
 	ret
@@ -1015,9 +1015,9 @@ Func_d1d2: ; 0xd1d2
 	ld [wHighScoreIsEnteringName], a
 	ld hl, wScreenState
 	inc [hl]
-	ld hl, wRedHighScore1Points
+	ld hl, wHighScores
 	ld de, sHighScores
-	ld bc, $0082
+	ld bc, wHighScoresEnd - wHighScores
 	call SaveData
 	ret
 
