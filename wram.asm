@@ -76,6 +76,8 @@ wFadeBGPaletteData:: ; 0xd280
 wFadeOBJPaletteData:: ; 0xd2c0
 	ds $40
 
+wSaveGame:: ; 0xd300
+
 wPartyMons:: ; 0xd300
 	ds $100
 
@@ -1792,6 +1794,8 @@ wSavedGame:: ; 0xd7c2
 ; 0 otherwise.
 	ds $1
 
+wSaveGameEnd:: ; wSaveGame + 0x04c3
+
 wSubTileBallXPos:: ; 0xd7c3
 	ds $1
 
@@ -2366,6 +2370,8 @@ wKeyConfigUpperTilt:: ; 0xd952
 wKeyConfigMenu:: ; 0xd954
 	ds $2
 
+wKeyConfigsEnd:: ; wKeyConfigs + 0xe
+
 wd956:: ; 0xd956
 	ds $1
 
@@ -2409,10 +2415,14 @@ wPokedexFlags:: ; 0xd962
 	ds NUM_POKEMON
 
 wNumPokemonSeen:: ; 0xd9f9
-	ds $2
+	ds $1
+wPokedexFlagsEnd:: ; sPokedexFlags includes half of wNumPokemonSeen
+	ds $1
 
 wNumPokemonOwned:: ; 0xd9fb
 	ds $2
+
+wHighScores:: ; 0xd9fb
 
 MACRO high_scores
 \1Points:: ds 6
@@ -2433,6 +2443,8 @@ wBlueHighScores:: ; 0xd9fd
 	high_scores wBlueHighScore3
 	high_scores wBlueHighScore4
 	high_scores wBlueHighScore5
+
+wHighScoresEnd:: ; wHighScores + 0x82
 
 wHighScoreIsEnteringName:: ; 0xda7f
 ; 1 during name entry; 0 otherwise
@@ -2617,3 +2629,5 @@ SECTION "Stack", WRAMX
 
 wStack:: ; 0xdfff
 	ds 1
+
+INCLUDE "sram.asm"

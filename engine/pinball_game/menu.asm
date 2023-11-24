@@ -45,9 +45,9 @@ HandleInGameMenu: ; 0x86d7
 	jr nz, .pickedCancel
 	ld a, $1
 	ld [wSavedGame], a
-	ld hl, wPartyMons
+	ld hl, wSaveGame
 	ld de, sSaveGame
-	ld bc, $04c3
+	ld bc, wSaveGameEnd - wSaveGame
 	call SaveData
 	xor a
 	ld [wRumblePattern], a

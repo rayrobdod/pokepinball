@@ -70,29 +70,30 @@ FadeOutCopyrightScreenAndLoadData: ; 0x82a8
 	call FadeOut
 	call DisableLCD
 	ld hl, sHighScores
-	ld de, wRedHighScore1Points
-	ld bc, $0082
+	ld de, wHighScores
+	ld bc, wHighScoresEnd - wHighScores
 	call LoadSavedData
 	jr c, .loadedHighScores
 	callba CopyInitialHighScores
 .loadedHighScores
 	ld hl, sPokedexFlags
 	ld de, wPokedexFlags
-	ld bc, $0098
+	ld bc, wPokedexFlagsEnd - wPokedexFlags
 	call LoadSavedData
 	jr c, .asm_82de
 	callba ClearPokedexData
 .asm_82de
 	ld hl, sKeyConfigs
 	ld de, wKeyConfigs
-	ld bc, $000e
+	ld bc, wKeyConfigsEnd - wKeyConfigs
 	call LoadSavedData
 	jr c, .asm_82f6
 	callba SaveDefaultKeyConfigs
 .asm_82f6
+	; This is saved game data from when the player saves in the middle of a game.
 	ld hl, sSaveGame
-	ld de, wPartyMons
-	ld bc, $04c3  ; This is saved game data from when the player saves in the middle of a game.
+	ld de, wSaveGame
+	ld bc, wSaveGameEnd - wSaveGame
 	call LoadSavedData
 	jr c, .asm_8308
 	xor a

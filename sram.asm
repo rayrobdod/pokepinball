@@ -9,10 +9,10 @@ MACRO saved_data
 \1BackupChecksum:: dw
 ENDM
 
-	saved_data sHighScores, $82   ; a000
-	saved_data sPokedexFlags, $98 ; a10c
-	saved_data sKeyConfigs, $e    ; a244
-	saved_data sSaveGame, $4c3    ; a268
+	saved_data sHighScores,     wHighScoresEnd - wHighScores   ; a000
+	saved_data sPokedexFlags, wPokedexFlagsEnd - wPokedexFlags ; a10c
+	saved_data sKeyConfigs,     wKeyConfigsEnd - wKeyConfigs   ; a244
+	saved_data sSaveGame,         wSaveGameEnd - wSaveGame     ; a268
 ; abf6
 
 	ds $409

@@ -228,9 +228,9 @@ Func_c506: ; 0xc506
 	call ClearSpriteBuffer
 	ld hl, hLCDC
 	res 3, [hl]
-	ld hl, wKeyConfigBallStart
+	ld hl, wKeyConfigs
 	ld de, sKeyConfigs
-	ld bc, $000e
+	ld bc, wKeyConfigsEnd - wKeyConfigs
 	call SaveData
 	ld a, $1
 	ld [wScreenState], a
@@ -1073,7 +1073,7 @@ SaveDefaultKeyConfigs: ; 0ca3a
 	jr nz, .loop
 	ld hl, wKeyConfigs
 	ld de, sKeyConfigs
-	ld bc, $000e
+	ld bc, wKeyConfigsEnd - wKeyConfigs
 	call SaveData
 	ret
 
